@@ -1,20 +1,16 @@
 Video Helper
 ================================
-
 This helper generates the tag for embedding videos from youtube and vimeo.
 ----------------------
 
-usage:
-
 ```php
+//usage
 echo $this->Video->embed($video['Video']['url'], array(
                 'width' => 450,
                 'height' => 300)
             );
-```
 
-advanced usage:
-
+//advanced usage
 echo $this->Video->embed($video['Video']['url'], array(
                 'width' => 450,
                 'height' => 300,
